@@ -40,7 +40,6 @@ nav > ul {
 nav > ul > li {
 	display: block;
 	text-align: center;
-	font-size: 2.5rem;
 	color: #FFFFFF;
 	font-weight: bold;
 	float: left;
@@ -53,7 +52,7 @@ nav > ul > li:hover {
 nav > ul > li > a:link, a:active, a:visited {
 	display: block;
 	text-align: center;
-	font-size: 2.5rem;
+	font-size: 2.3rem;
 	color: #FFFFFF;
 	font-weight: bold;
 	text-decoration: none;
@@ -236,5 +235,16 @@ body > footer > p > a:link, p > a:active, p > a:visited {
 body > footer > p > a:hover {
 	color: #000000;
 	font-size: 1.5rem;
+}
+#retour > a:link, a:visited, a:active, a:hover {
+	text-decoration: none;
+}
+#retour > a > img {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	border: 0;
+	width: 35px;
+	height: 35px;
 }
 /* --- VERSION DESKTOP ------------------ */
