@@ -185,6 +185,39 @@ input[type=reset] {
 	border-radius: 5px;
 	text-align: center;
 }
+/* /// TARIFS : TABLEAU ////////////////// */
+table {
+	margin-top: 60px;
+	border-collapse: collapse;
+}
+caption {	
+	font-size: 2rem;	
+	font-weight: bold;
+}
+thead > tr > th {
+	background-color: #FFFFFF;
+}
+th {
+	font-size: 1.8rem;	
+	padding: 10px;
+}
+th:nth-child(1) {
+	width: 17%;
+}
+th:nth-child(2) {
+	width: 83%;
+	text-align: left;
+}
+tr:nth-child(odd) {
+	background-color: #D9903F;
+}
+td {
+	font-size: 1.5rem;	
+	padding: 10px;
+}
+td:nth-child(2) {
+	text-align: left;
+}
 /* /// RÉSEAUX SOCIAUX /////////////////// */
 body > section {
 	padding-top: 20px;
@@ -196,11 +229,11 @@ body > section {
 footer > p {
 	font-size: 1.5rem;
 }
-footer > p ~ a:link, p ~ a:active, p ~ a:visited {
+body > footer > p > a:link, p > a:active, p > a:visited {
 	color: #4074D7;
 	font-size: 1.5rem;
 }
-footer > p ~ a:hover {
+body > footer > p > a:hover {
 	color: #000000;
 	font-size: 1.5rem;
 }
