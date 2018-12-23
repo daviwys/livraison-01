@@ -112,6 +112,9 @@ main > p {
 .apropos {
 	float: left;
 	margin-top: 85px;
+	background-image: url("../img/apropos-xl.jpg");
+	width: 330px;
+	height: 459px;
 }
 .apropos_p {
 	margin-top: 85px;
