@@ -1,0 +1,128 @@
+/* --- VERSION DESKTOP ------------------ */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 10px;
+	text-align: center;
+}
+/* /// header ////////////////////////// */
+header {
+	background-image:url("../img/ban-xl-flou.jpg");
+	width: 99vw;
+}
+header > img {
+	animation: 3s 1 slideBan;
+	width: 99vw;
+}
+@keyframes slideBan {
+	from {
+	-webkit-clip-path: polygon(-5% 0%, 0% 50%, -5% 100%, -10% 100%, -15% 50%, -10% 0%);
+	clip-path: polygon(-5% 0%, 0% 50%, -5% 100%, -10% 100%, -15% 50%, -10% 0%);    
+	}
+	to {
+	-webkit-clip-path: polygon(100% 0%, 110% 50%, 100% 100%, 0% 100%, 0% 50%, 0% 0%);
+  clip-path: polygon(100% 0%, 110% 50%, 100% 100%, 0% 100%, 0% 50%, 0% 0%);	
+	}
+}
+nav {
+	position: -webkit-sticky; /* Chrome, Safari, Android */
+	position: sticky;
+	top: 0;
+}
+nav > ul {
+	list-style-type: none;
+	background-color: #4074D7;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav > ul > li {
+	display: block;
+	text-align: center;
+	font-size: 2.5rem;
+	color: #FFFFFF;
+	font-weight: bold;
+	float: left;
+	text-shadow: 1px 1px 1px #444444;
+	padding: 14px 16px;
+}
+nav > ul > li:hover {
+	background-color: #D9903F;
+}
+nav > ul > li > a:link, a:active, a:visited {
+	display: block;
+	text-align: center;
+	font-size: 2.5rem;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+/* /// main ///////////////////////////// */
+main {
+	margin-bottom: 40px;
+	float: left;
+	width: 84vw;
+}
+h2 {
+	font-size: 2.3em;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+main > section > a > img {
+	border: 0;
+	width: 80%;
+	height: 80%;
+	box-shadow: 5px 5px 10px #222222;
+	border-radius: 20px;
+}
+section {
+	width: 40vw;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 35px;
+}
+section > p {
+	font-size: 1.5rem;
+	padding: 5px;
+	text-align: center;
+}
+/*main > section:nth-child(3) {
+	background-image: url("../img/aside.jpg");
+	width: 200px;
+	height: 625px;
+	margin-top: 70px;
+}*/
+aside {
+	background-image: url("../img/aside.jpg");
+	background-repeat: no-repeat;
+	width: 14vw;
+	height: 625px;
+	float: right;
+	margin-top: 85px;
+}
+main > article > p {
+	font-size: 1.5rem;
+	padding-top: 20px;
+}
+/* /// RÉSEAUX SOCIAUX /////////////////// */
+body > section {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 99vw;
+	background-color: #4074D7;
+}
+/* /// footer /////////////////////////// */
+footer > p {
+	font-size: 1.5rem;
+}
+footer > p ~ a:link, p ~ a:active, p ~ a:visited {
+	color: #4074D7;
+	font-size: 1.5rem;
+}
+footer > p ~ a:hover {
+	color: #000000;
+	font-size: 1.5rem;
+}
+/* --- VERSION DESKTOP ------------------ */
