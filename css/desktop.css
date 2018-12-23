@@ -61,6 +61,7 @@ nav > ul > li > a:link, a:active, a:visited {
 /* /// main ///////////////////////////// */
 main {
 	margin-bottom: 40px;
+	margin-top: -30px;
 	float: left;
 	width: 84vw;
 }
@@ -100,11 +101,14 @@ aside {
 	width: 14vw;
 	height: 625px;
 	float: right;
-	margin-top: 85px;
+	margin-top: 55px;
 }
 main > article > p {
 	font-size: 1.5rem;
 	padding-top: 20px;
+}
+main > p {
+	font-size: 1.5rem;
 }
 .apropos {
 	float: left;
@@ -117,6 +121,69 @@ main > article > p {
 	font-size: 1.5rem;
 	text-align: left;
 	margin-bottom: 15px;
+}
+/* /// FORMULAIRES /////////////////////// */
+form {
+	width: 80vw;
+	padding: 15px;
+}
+fieldset {
+	background-color: #EEEEEE;
+	padding: 20px;
+}
+legend {
+	font-weight: bold;
+	font-size: 2.3rem;
+	margin-top: 60px;
+}
+label {
+	font-size: 1.5rem;
+}
+.gauche {
+	width: 30%;
+	display: inline;
+	float: left;
+	text-align: right;
+	padding: 8px 8px 8px 0;
+}
+.droite {
+	width: 45%;
+	display: inline;
+	float: left;
+	text-align: left;
+	padding: 5px 0 5px 5px;
+}
+input {
+	width: 100%;
+	border: 1px solid #4074d7;
+	font-size: 1.5rem;
+	text-align: left;
+	padding: 3px;
+}
+textarea {
+	width: 100%;
+	border: 1px solid #4074d7;
+	text-align: left;
+	padding: 3px;
+	font-size: 1.5rem;
+}
+input[type=submit] {
+	width: 80px;
+	background-color: #4074D7;
+	font-size: 1.5rem;
+	color: #FFFFFF;
+	border-color: #BBB;
+	border-radius: 5px;
+	text-align: center;
+}
+input[type=reset] {
+	width: 80px;
+	background-color: #FF0000;
+	font-size: 1.5rem;
+	color: #FFFFFF;
+	border-color: #BBB;
+	border-radius: 5px;
+	text-align: center;
 }
 /* /// RÉSEAUX SOCIAUX /////////////////// */
 body > section {
