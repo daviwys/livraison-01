@@ -28,11 +28,14 @@
 		<form action="#" method="post">
 			<fieldset>
 				<legend>Formulaire de contact</legend>
-				<div class="ligne"><div class="gauche"><label for="nom">Nom</label> :</div> <div class="droite"><input type="text" name="nom" id="nom" autofocus="autofocus" required="required" /></div></div>
+				<div class="ligne"><div class="gauche"><label for="nom">Nom</label> :</div> <div class="droite"><input type="text" name="nom" id="nom" autofocus="autofocus" autocomplete="on" required="required" /></div></div>
+				<div class="ligne"><div class="gauche"><label for="prenom">Pr&eacute;nom</label> :</div> <div class="droite"><input type="text" name="prenom" id="prenom" autocomplete="on" required="required" /></div></div>
+				<div class="ligne"><div class="gauche"><label for="naissance">Date de naissance</label> :</div> <div class="droite"><input type="date" name="naissance" id="naissance" /></div></div>
 				<div class="ligne"><div class="gauche"><label for="email">E-mail</label> :</div><div class="droite"> <input type="email" name="email" id="email" autocomplete="on" required="required" /></div></div>
-				<div class="ligne"><div class="gauche"><label for="tel">T&eacute;l.</label> :</div><div class="droite"> <input type="tel" name="tel" id="tel"  autocomplete="on" required="required" /></div></div>
-				<div class="ligne"><div class="gauche"><label for="sujet">Sujet</label> :</div><div class="droite"> <input type="text" name="sujet" id="sujet" required="required" /></div></div>
-				<div class="ligne"><div class="gauche"><label for="message">Message</label> :</div><div class="droite"> <textarea name="message" id="message" placeholder="Votre message ici ..." required="required"></textarea></div></div>
+				<div class="ligne"><div class="gauche"><label for="tel">T&eacute;l.</label> :</div><div class="droite"> <input type="tel" name="tel" id="tel" autocomplete="on" required="required" /></div></div>
+				<div class="ligne"><div class="gauche"><label for="adresse">Adresse</label> :</div> <div class="droite"><input type="text" name="adresse" id="adresse" autocomplete="on" required="required" /></div></div>
+				<div class="ligne"><div class="gauche"><label for="cp">Code postal</label> :</div> <div class="droite"><input type="text" name="cp" id="cp" autocomplete="on" required="required" /></div></div>
+				<div class="ligne"><div class="gauche"><label for="ville">Ville</label> :</div> <div class="droite"><input type="text" name="ville" id="ville" autocomplete="on" required="required" /></div></div>
 				<div class="ligne"><div class="gauche">&nbsp;</div><div class="droite"><input type="submit" value="Envoyer" /> &nbsp; <input type="reset" value="Effacer" /></div></div>
 			</fieldset>
 		</form>
